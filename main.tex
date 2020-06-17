@@ -1,0 +1,37 @@
+\documentclass[oneside]{book} 
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{centernot}
+\usepackage{amsthm}
+\usepackage{subcaption}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+
+\title{
+    \textbf{CM4L\&DA}\\
+    \texttt{Mathematical Optimization}
+}
+\author{Authors:\\ \textit{Those who must not be named}}
+\date{Date: somewhere during the end of the second decade of the twenty-first century...}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/1-introduction}
+
+\chapter{Unconstrained Optimisation}
+\input{chapters/2-unconstrained}
+
+\chapter{Constrained Optimisation}
+\input{chapters/3-constrained}
+
+\end{document}
